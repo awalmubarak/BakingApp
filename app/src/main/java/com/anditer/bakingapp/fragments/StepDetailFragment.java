@@ -126,16 +126,15 @@ public class StepDetailFragment extends Fragment implements ExoPlayer.EventListe
 
                     initializePlayer(Uri.parse(step.getVideoURL()));
                 }
-                if (step.getThumbnailURL()!=null && !step.getThumbnailURL().equals("")){
+                else if (step.getThumbnailURL()!=null && !step.getThumbnailURL().equals("")){
                     mPlayerView.setVisibility(View.GONE);
                     mImageView.setVisibility(View.VISIBLE);
                     Picasso.with(getContext()).load(step.getThumbnailURL())
                             .placeholder(R.drawable.recipe_step)
                             .into(mImageView);
                 }
-                if (textView!=null){
                     textView.setText(step.getDescription());
-                }
+
 
 
             }
