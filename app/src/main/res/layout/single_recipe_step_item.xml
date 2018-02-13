@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:orientation="vertical"
+    android:id="@+id/mRecipeStepLinearLayout"
+    android:gravity="center"
+    android:layout_marginBottom="@dimen/default_3dp"
+    android:background="@android:color/white">
+    <TextView
+        android:id="@+id/mRecipeName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:text="Home Burger Recipe"
+        android:layout_gravity="center"
+        android:textSize="@dimen/default_text_20sp"
+        android:gravity="center"/>
+
+</LinearLayout>

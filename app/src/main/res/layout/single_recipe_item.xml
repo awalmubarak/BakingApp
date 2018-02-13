@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/default_90dp"
+    android:elevation="@dimen/default_8dp"
+    android:layout_marginBottom="@dimen/default_3dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/default_8dp"
+        android:layout_marginEnd="@dimen/default_8dp"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/mRecipeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/default_text_20sp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="9"
+            tools:text="Home Burger Recipe" />
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/mFavButton"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/default_40dp"
+            android:contentDescription="@string/fav_button_desc"
+            android:src="@drawable/unfav_star"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    </android.support.v7.widget.CardView>

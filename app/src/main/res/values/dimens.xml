@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_8dp">8dp</dimen>
+    <dimen name="default_text_20sp">20sp</dimen>
+    <dimen name="default_40dp">40dp</dimen>
+    <dimen name="default_90dp">90dp</dimen>
+    <dimen name="default_3dp">3dp</dimen>
+    <dimen name="defualt_16sp">16sp</dimen>
+    <dimen name="video_view_height">250dp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+</resources>

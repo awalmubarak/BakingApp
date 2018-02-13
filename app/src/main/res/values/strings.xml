@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BakingApp</string>
+    <string name="fav_button_desc">this is the favorite button</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_favorites">My Favorites</string>
+    <string name="no_fav_recipe_found">No Favorite Recipes Found</string>
+    <string name="not_internet_message">No Internet Connection</string>
+    <string name="all_recipe">All Recipes</string>
+    <string name="already_showing_favorites">Already Showing Favorite Recipes</string>
+    <string name="already_showing_all">Already Showing All Recipes</string>
+    <string name="unfav_success">Recipe Unfavorited Successfully</string>
+    <string name="unfav_unsuccessful">Unfavorited UnSuccessfully. Something Went Wrong</string>
+    <string name="fav_success">Recipe Favorited Successfully</string>
+    <string name="fav_unsuccess">Favorited UnSuccessfully. Something Went Wrong</string>
+    <string name="ingredients_for_steps">Ingredients</string>
+    <string name="previous_step_button">Previous Step</string>
+    <string name="next_step_button">Next Step</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="empty_string">No Favorite Recipes</string>
+    <string name="not_implemented">Not yet implemented</string>
+    <string name="uri_not_supported">URI Unsupported:</string>
+    <string name="saving_recipe_failed">Saving Recipe Failed</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/mRecipeIngredientLayout"
+    android:gravity="center"
+    android:weightSum="5"
+    android:layout_marginBottom="@dimen/default_3dp"
+    android:background="@android:color/white">
+    <TextView
+        android:id="@+id/mRecipeIngredientName"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        tools:text="Home Burger Recipe"
+        android:layout_gravity="center"
+        android:layout_weight="3.5"
+        android:textSize="@dimen/default_text_20sp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginEnd="@dimen/default_8dp"
+        android:layout_weight="1.5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mIngredientQuantity"
+            android:gravity="center"
+            android:textSize="@dimen/default_text_20sp"
+            android:textStyle="bold"
+            tools:text="6"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mIngredientMeasure"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/default_text_20sp"
+            tools:text="TBLSPN"/>
+
+    </LinearLayout>
+
+</LinearLayout>

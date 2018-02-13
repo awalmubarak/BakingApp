@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+        android:id="@+id/mStepDetailVideoPlayer"
+        android:padding="@dimen/default_3dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/video_view_height" />
+
+    <ImageView
+        android:id="@+id/mStepDetailImage"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/video_view_height"
+        android:src="@drawable/recipe_step"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:id="@+id/mStepDetailText"/>
+
+</LinearLayout>
